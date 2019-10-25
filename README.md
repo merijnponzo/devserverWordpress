@@ -1,5 +1,10 @@
 # devserverWordpress
 
+Theme development with SCSS, font and file loaders
+No browsersync but chokidar
+With a simple script called devserver.js to rewrite all links within your document
+
+
 > cd wp-content/themes/ponzotheme
 
 > npm install
@@ -15,5 +20,10 @@ Start your wordpress theme development
 
 Build a dist folder in /app
 > npm run build
+
+In app/lib/assets.php
+It's injecting the modules from localhost:9000
+
+
 
 Upload your app folder in your production theme and you are ready to go
