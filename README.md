@@ -11,7 +11,7 @@ And a simple script devserver.js to rewrite all links within your document to lo
 
 > npm install
 
-Use the test/index.html for testing your theme without wordpress 
+Use the test/index.html for testing/developing your scss design without wordpress 
 > npm run test
 
 Create a typeface from your svg icons
