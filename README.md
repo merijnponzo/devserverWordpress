@@ -29,3 +29,5 @@ It's injecting the modules from localhost:9000
 
 
 Upload your app folder in your production theme and you are ready to go
+
+#### edit config.json with your local wordpress url, if you change the port number, change it in your app/lib/assets as well
