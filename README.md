@@ -1,6 +1,6 @@
 # devserverWordpress
 
-> cd themes/ponzotheme
+> cd wp-content/themes/ponzotheme
 
 > npm install
 
