@@ -1,0 +1,51 @@
+{
+  "name": "ponzotheme",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "webpack",
+    "startkit",
+    "frontend",
+    "es6",
+    "javascript",
+    "webdev"
+  ],
+  "bugs": {},
+  "scripts": {
+    "build": "./node_modules/.bin/webpack -p --mode production",
+    "start": "./node_modules/.bin/webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "./node_modules/.bin/webpack-dev-server --config ./webpack.config.js --mode none",
+    "icons": "icon-font-generator src/assets/icons/*.svg -o src/assets/fonts-icon --prefix ico —html —mono true --height 100  --cssfontsurl '#{$asset-base-path}/fonts-icon' --csspath ./src/styles/_fonts-icon.scss"
+  },
+  "author": "Merijn van Essen | Thanks to Marc Nuri and Eric van der Bas",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.5.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "chokidar": "^3.0.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "icon-font-generator": "^2.1.10",
+    "webpack-manifest-plugin": "^2.0.4"
+  }
+}

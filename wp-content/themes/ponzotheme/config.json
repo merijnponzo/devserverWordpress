@@ -1,0 +1,13 @@
+{
+  "entry": {
+    "style": "./src/styles/main.scss",
+    "gutenberg": "./src/styles/gutenberg.scss",
+    "script": "./src/scripts/app.js"
+  },
+  "appfolder": "app",
+  "outputfolder": "dist",
+  "publicfolder": "assets",
+  "port": 9000,
+  "proxytarget": "http://yourlocalserver.local/wordpress/wordpressite",
+  "watch": ["app/**/*.php", "app/**/*.twig"]
+}

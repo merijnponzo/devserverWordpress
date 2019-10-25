@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "icons";
+    src: url("#{$asset-base-path}/fonts-icon/icons.eot?a134b65eadbddf0f5d29b9dba63bc162?#iefix") format("embedded-opentype"),
+url("#{$asset-base-path}/fonts-icon/icons.woff2?a134b65eadbddf0f5d29b9dba63bc162") format("woff2"),
+url("#{$asset-base-path}/fonts-icon/icons.woff?a134b65eadbddf0f5d29b9dba63bc162") format("woff"),
+url("#{$asset-base-path}/fonts-icon/icons.ttf?a134b65eadbddf0f5d29b9dba63bc162") format("truetype"),
+url("#{$asset-base-path}/fonts-icon/icons.svg?a134b65eadbddf0f5d29b9dba63bc162#icons") format("svg");
+}
+
+i[class^="ico-"]:before, i[class*=" ico-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-insta:before {
+    content: "\f101";
+}
