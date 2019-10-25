@@ -7,7 +7,7 @@
 Use the test/index.html for testing your theme without wordpress 
 > npm run test
 
-Create a typoface from your svg icons
+Create a typeface from your svg icons
 > npm run icons
 
 Start your wordpress theme development
