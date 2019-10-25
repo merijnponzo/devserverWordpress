@@ -1,8 +1,8 @@
 # devserverWordpress
 
 Theme development with SCSS, font and file loaders
-No browsersync but chokidar
-With a simple script called devserver.js to rewrite all links within your document
+No browsersync but chokidar for watching php and twig files
+And a simple script devserver.js to rewrite all links within your document
 
 
 > cd wp-content/themes/ponzotheme
